@@ -1,0 +1,9 @@
+{
+  "build": {
+    "type": "maven",
+    "goal": "install  -DskipTests"
+  },
+  "deploy": {
+    "jarName": "target/com.example.demo-0.0.1-SNAPSHOT.jar"
+  }
+}
